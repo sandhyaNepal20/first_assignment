@@ -1,3 +1,4 @@
+import 'package:first_assignment/view/column_screenstate.dart';
 import 'package:first_assignment/view/dashboard_view.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DashboardView(),
+      home: ColumnScreen(),
     );
   }
 }
